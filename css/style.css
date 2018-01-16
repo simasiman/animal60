@@ -1,0 +1,91 @@
+body{
+	background:#7a0001 url("../img/gatag-00002891.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center center;
+	background-size:cover;
+	font-family:"HGP創英角ﾎﾟｯﾌﾟ体","メイリオ",sans-serif;
+	font-size:20px;
+}
+.page{
+	width:500px;
+	margin:50px auto 0;
+	color:#FFF;
+}
+
+/*タイトル*/
+h1{
+	width:350px;
+	margin:0 auto;
+	font-size:25px;
+}
+h1 img{
+	margin:0 15px;
+}
+
+/*フォーム*/
+.form{
+	margin:30px auto;
+}
+input{
+	padding:3px;
+	border-radius:4px;
+	border:solid 1px #361300;
+}
+input:focus{
+	background-color:#E59E94;
+}
+table{
+	width:90%;
+	margin:0 auto;
+}
+.form_left{
+	width:35%;
+	padding:10px 5px;
+}
+.form_right{
+	padding:10px 5px;
+}
+.comments{
+	font-family:"ＭＳ Ｐゴシック","メイリオ",sans-serif;
+	font-size:10px;
+	line-height:1;
+}
+.comments span{
+	font-size:12px;
+	font-weight:bold;
+}
+td.form_button{
+	text-align:center;
+	padding-top:15px;
+}
+input.form_button{
+	font-family:"メイリオ","ＭＳ Ｐゴシック",sans-serif;
+	font-size:17px;
+	color:#FFF;
+	background-color:#80180A;
+	border:outset 1px #AFAFAF;
+}
+input.form_button:hover{
+	background-color:#B3210E;
+}
+input.form_button:active{
+	background-color:#B3210E;
+	border:inset 1px #AFAFAF;
+}
+
+/*フッター*/
+.foot_img{
+	margin:40px 0;
+	text-align:center;
+}
+.foot_img img{
+	margin:0 5px;
+}
+#pic_01,
+#pic_03{
+	width:150px;
+}
+#pic_02{
+	width:230px;
+}

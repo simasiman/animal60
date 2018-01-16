@@ -1,0 +1,174 @@
+body{
+	background:#7a0001 url("../img/gatag-00002891.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center center;
+	background-size:cover; /*背景を全画面表示*/
+	line-height:1.5;
+	font-family:"メイリオ","ＭＳ Ｐゴシック",sans-serif;
+	color:#FAFAFA;
+	font-size:15px;
+}
+.clearfix:after{
+	content:" ";
+	display:block;
+	clear:both;
+}
+a{
+	font-weight:bold;
+	color:#7a0001;
+}
+a:hover {
+	color:#FAFAFA;
+}
+/*大枠*/
+.page{
+	width:800px;
+	margin:0 auto;
+	background-color:rgba(0,0,0,0.45);
+}
+.wapper{
+	width:720px;
+	margin:0 auto;
+	padding-top:1px;
+	background-color:rgba(0,0,0,0.7);
+	border-left:solid #777 1px;
+	border-right:solid #777 1px;
+}
+
+/*タイトル*/
+h1{
+	box-sizing:border-box;
+	width:100%;
+	margin:0 auto;
+	padding:10px  0;
+	font-size:30px;
+	font-family:"HGP創英角ﾎﾟｯﾌﾟ体","メイリオ",,sans-serif;
+	background-color:rgba(255,0,0,0.5);
+}
+h1 div{
+	box-sizing:border-box;
+	width:510px;
+	margin:0px auto;
+	padding-left:30px;
+}
+h1 div img{
+	margin-left:15px;
+}
+
+/*占い結果*/
+.uranai_result{
+	box-sizing:border-box;
+	margin:20px;
+}
+/*メインの占い結果*/
+.uranai_main{
+	margin:20px 0 10px 0;
+}
+.uranai_main_img{
+	box-sizing:border-box;
+	float:left;
+	height:204px;
+	min-width:200px;
+	max-width:300px;
+	margin-left:8px;
+}
+.uranai_main_img img{
+	border:solid 2px #888;
+	height:200px;
+}
+.uranai_main_right{
+	box-sizing:border-box;
+	float:left;
+	width:357px;
+	margin-left:15px;
+}
+.uranai_main_profile{
+	margin:10px 0;
+}
+.uranai_main_profile span{
+	font-weight:bold;
+	font-size:18px;
+}
+.uranai_main_name{
+	margin:15px 0;
+	letter-spacing:1.5px;
+}
+.uranai_main_name span{
+	font-weight:bold;
+	font-size:20px;
+}
+.uranai_main_detail{
+	margin-top:20px;
+	padding:10px;
+	font-size:15px;
+}
+.hr_main{
+	border-top:3px double #8c8b8b;
+}
+
+/*恋愛対象と友人と仕事仲間*/
+.uranai_sub{
+	box-sizing:border-box;
+	width:100%;
+	margin:20px 0;
+}
+.uranai_sub_img1,
+.uranai_sub_img2{
+	box-sizing:border-box;
+	height:154px;
+	width:154px;
+}
+.uranai_sub_img1 img,
+.uranai_sub_img2 img{
+	width:150px;
+	height:150px;
+	border:solid 2px #666;
+}
+.uranai_sub_right,
+.uranai_sub_left{
+	box-sizing:border-box;
+	width:500px;
+	margin-top:10px;
+	padding:10px;
+}
+.uranai_sub_right span,
+.uranai_sub_left span{
+	font-weight:bold;
+	font-size:18px;
+	letter-spacing:1.5px;
+}
+.uranai_sub_detail{
+	margin:10px 0;
+}
+.hr_sub{
+	border-top:1px dashed #8c8b8b;
+}
+
+/*恋愛対象と仕事仲間*/
+.uranai_sub_img1{
+	float:left;
+	margin-left:8px;
+}
+.uranai_sub_right{
+	float:left;
+	margin-left:15px;
+	padding-right:5px;
+}
+
+/*友人*/
+.uranai_sub_img2{
+	float:right;
+	margin-right:8px;
+}
+.uranai_sub_left{
+	float:right;
+	margin-right:15px;
+	padding-left:15px;
+}
+
+/*フッター*/
+.footer{
+	text-align:center;
+	padding-bottom:30px;
+}

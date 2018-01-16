@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=Windows-31J">
+<LINK REL="stylesheet" TYPE="text/css" HREF="css/reset.css">
+<LINK REL="stylesheet" TYPE="text/css" HREF="css/style.css">
+<title>月曜から動物占い</title>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="randomPichure();">
+<div class="page">
+	<h1>月曜から<br>
+	<img src="img/logo.png"  alt="月曜から動物占い"></h1>
+	<div class="form">
+		<form name="foo" action="UranaiResult.jsp" METHOD="post" onsubmit="return check();">
+			<table>
+				<tr>
+					<td class="form_left">ニックネーム</td>
+					<td class="form_right"><input type="text" name="userName" size="20" value="ゲスト"></td>
+				</tr>
+				<tr>
+					<td class="form_left">生年月日（西暦）</td>
+					<td class="form_right">
+						<input type="date" name="birthDay" required><br><!-- requiredは入力必須属性（Safariでは非対応）-->
+						<span class="comments">入力欄がテキストボックスの方は、以下の形式で入力してください　
+						<span>例：2000年1月1日→2000-01-01</span></span></td>
+				</tr>
+				<tr>
+					<td class="form_left">性別</td>
+					<td class="form_right"><input type="radio" name="sex" value="m" checked="checked">男　<input type="radio" name="sex" value="f">女</td>
+				</tr>
+				<tr>
+					<td class="form_button" colspan="2">
+					<input class="form_button" type="submit" value="　占　う　">　　<input class="form_button" type="reset" value=" クリア "></td>
+				</tr>
+			</table>
+		</form>
+		</div>
+</div>
+		<div class="foot_img"><img id="pic_01" src="img/illust_png/wolf.png"><img id="pic_02" src="img/job_uranaishi.png"><img id="pic_03" src="img/illust_png/tiger.png"></div>
+
+</body>
+</html>
